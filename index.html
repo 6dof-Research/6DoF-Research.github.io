@@ -10,30 +10,66 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	<style>
-		html, body {
+
+		@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+		html {
+			font-family: 'PT Serif', serif;
 		    margin: 0;
 		    min-height: 100%;
-			box-shadow: inset 0px 0px 80px 40px rgba(0,0,0,0.1);
+			box-shadow: inset 0px 0px 80px 40px rgba(155,0,155,0.05);
 		}
 		img {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			max-width: 500px;
+			max-width: 100%;
 			max-height: 500px;
-			margin-top: -250px; /* Half the height */
-			margin-left: -250px; /* Half the width */
 			pointer-events: none;
+		}
+		div.main {
+			margin: auto;
+			max-width: 500px;
+			padding: 32px 0;
+		}
+		p {
+			padding: 0 32px;
+		}
+		p.links {
+			margin: 0;
+		}
+		a {
+			color: #b400b4;
+			width: 49%;
+			text-align: center;
+			display: inline-block;
 		}
 	</style>
 </head>
 <body>
-	<img src="./6d0f_logo_canon_square_v1.png" alt="6dOF Research Logo">
+
+	<div class="main">
+		<img src="./6DoF_Research_Logo_Black_Trim.png" alt="6dOF Research Logo">
+		<p><strong>6DoF Research</strong> is an Immersive Experience Lab specializing in the technologies that drive live spatial events. Whether it is VR, AR, or sensor-driven physical installations, we strive to create dynamic, interactive, experiences that blend physical and digital realities.</p>
+
+		<p>We value commodity-solutions, open-source, interoperability, accessibility, and privacy in everything we make. We believe embracing these values maximizes value for our clients while reaching the greatest possible audience.</p>
+
+		<p>We offer expertise for every stage of making a truly unique immersive experience including <strong>creative</strong>, <strong>production</strong>, <strong>distribution</strong>, <strong>analytics</strong> and <strong>publishing</strong>.</p>
+
+		<p>Right now the team is hard at work on our first project<br>'<strong>Fire Dance XR</strong>', coming to headsets later this year.
+		</p>
+
+		<p>Watch this space for more.</p>
+
+		<p class="links">
+			<a href="mailto:info@6DoF.io" target="_blank">
+				info@6dof.io
+			</a>
+			<a href="https://twitter.com/6dof_research" target="_blank">@6DoF_research</a>
+		</p>
+	</div>
 </body>
 
 <script language="javascript">
 	document.addEventListener("DOMContentLoaded", function() {
-	  console.log('Coming out of stealth soon.');
+	  console.log('Watcha doin snoopin in here?');
 	});
 </script>
 
